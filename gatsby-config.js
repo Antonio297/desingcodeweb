@@ -1,8 +1,8 @@
- module.exports = {
+module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Bach-IK`,
+    description: `El curso de preparación Bach-IK está diseñado para ayudar a los estudiantes a alcanzar un nivel adecuado de conocimientos y habilidades para aprobar el examen de acceso aL bachillerato. Durante el curso, los estudiantes reciben clases intensivas en las diferentes áreas temáticas del examen y se les proporciona material de estudio adicional para que puedan practicar desde la comodidad de su hogar.`,
+    author: `@Antonio279`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -15,6 +15,7 @@
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
